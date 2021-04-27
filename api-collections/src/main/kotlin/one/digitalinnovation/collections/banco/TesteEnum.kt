@@ -5,6 +5,11 @@ import java.sql.DriverManager.println
 
 fun main(){
     ClienteTipo.values().iterator(
-    println("${it.name} $it")
+     println ("${It.name}+${iT.descricao}")
     }
+    val PF = ClienteTipo.PF
+    println ("${PF.name}+${PF.descricao}")
+
+    val PJ = ClienteTipo.PJ
+    println ("${PJ.name}+${PJ.descricao}")
 }
